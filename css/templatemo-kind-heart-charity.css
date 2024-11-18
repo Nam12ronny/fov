@@ -49,12 +49,12 @@ https://templatemo.com/tm-581-kind-heart-charity
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #5bc1ac;
-  --secondary-color:              #5a6f80;
-  --section-bg-color:             #f0f8ff;
-  --site-footer-bg-color:         #44525d;
+  --primary-color:                #001F3F ;
+  --secondary-color:              #708090 ;
+  --section-bg-color:             #ece9e5;
+  --site-footer-bg-color:         #94a1ad;
   --custom-btn-bg-color:          #597081;
-  --custom-btn-bg-hover-color:    #5bc1ac;
+  --custom-btn-bg-hover-color:    #CDB79E ;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
@@ -65,9 +65,10 @@ https://templatemo.com/tm-581-kind-heart-charity
   --h2-font-size:                 46px;
   --h3-font-size:                 32px;
   --h4-font-size:                 28px;
-  --h5-font-size:                 24px;
+  --h5-font-size:                 19px;
   --h6-font-size:                 22px;
-  --p-font-size:                  16px;
+  --p-font-size:                  15px;
+  --pr-font-size:                  12px;
   --btn-font-size:                18px;
   --copyright-font-size:          14px;
 
@@ -274,6 +275,7 @@ strong {
   border-radius: var(--border-radius-medium);
   margin-bottom: 10px;
   padding: 20px;
+  
 }
 
 .custom-text-box-image {
@@ -377,7 +379,7 @@ strong {
 }
 
 .logo {
-  width: 80px;
+  width: 140px;
   height: auto;
 }
 
@@ -783,7 +785,16 @@ strong {
   NEWS         
 -----------------------------------------*/
 .news-detail-header-section {
-  background-image: url('../images/news/close-up-volunteer-oganizing-stuff-donation.jpg');
+  background-image: url('../images/news/vecteezy_veterans-soldiers-saludating_.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.news-detail-header-section1 {
+  background-image: url('../images/news/child.avif');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
