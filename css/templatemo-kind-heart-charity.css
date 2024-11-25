@@ -791,6 +791,15 @@ strong {
   padding-top: 150px;
   padding-bottom: 150px;
 }
+.news-detail-header-section2 {
+  background-image: url('../images/news/ser.PNG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
 .news-detail-header-section1 {
   background-image: url('../images/news/child.avif');
   background-repeat: no-repeat;
